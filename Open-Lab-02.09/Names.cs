@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Globalization;
 
 namespace Open_Lab_02._09
 {
@@ -6,7 +7,8 @@ namespace Open_Lab_02._09
     {
         public string ConcatName(string firstName, string lastName)
         {
-            throw new NotImplementedException();
+            string fullName = lastName + ", " + firstName;
+            return fullName;
         }
     }
 }
